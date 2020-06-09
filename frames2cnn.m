@@ -54,7 +54,8 @@ if length(foldername) >= 2
     filepath
     foldername
 else
-    filepath = ' ';
+    %filepath = ' ';
+    filepath = './';
     foldername = foldername{1};
     filepath
     foldername

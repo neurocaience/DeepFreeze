@@ -27,7 +27,8 @@ function [] = video2frames(path_inputvideo, path_outputfolder)
         filepath = path_inputvideo(1:ind-1);
         full_filename = videoname{end};
     else
-        filepath = ' ';
+        %filepath = ' ';
+        filepath = './';
         full_filename = videoname{1};
     end
     filename = strsplit(full_filename,'.');
